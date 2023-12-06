@@ -515,6 +515,9 @@ footer {
 @media (min-width: 300px) and (max-width: 600px) {
 
     /*header*/
+    header{
+        flex-wrap: wrap;
+    }
     .content-1 {
         width: 50vw;
         height: 100%;
@@ -522,7 +525,7 @@ footer {
         justify-content: space-around;
         align-items: center;
         flex-wrap: wrap;
-        padding-left: 5vw;
+        padding-left: 20vw;
     }
 
     .content-3 {
@@ -533,7 +536,7 @@ footer {
         align-items: center;
         margin-top: 2.5vh;
         border-radius: 5px;
-        margin-left: 20vw;
+        margin-left: 36vw;
         border: 1px solid;
     }
 
@@ -727,6 +730,7 @@ footer {
     footer {
         width: 100%;
         margin-top: 50vh;
+        height: 100%;
     }
 
     .info-position {
