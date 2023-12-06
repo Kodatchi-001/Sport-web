@@ -522,10 +522,11 @@ footer {
         justify-content: space-around;
         align-items: center;
         flex-wrap: wrap;
+        padding-left: 5vw;
     }
 
     .content-3 {
-        width: 15vw;
+        width: 20vw;
         height: 5vh;
         display: flex;
         justify-content: center;
@@ -724,6 +725,7 @@ footer {
     }
 
     footer {
+        width: 100%;
         margin-top: 50vh;
     }
 
