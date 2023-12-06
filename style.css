@@ -158,11 +158,12 @@ header {
     display: flex;
 }
 
-.content-page h1{
+.content-page h1 {
     width: 29vw;
     color: black;
 
 }
+
 .icon-content img {
     width: 8vw;
     height: 10vh;
@@ -171,11 +172,13 @@ header {
 .icon-position {
     margin-left: 2vw;
 }
-.icon-position h3{
+
+.icon-position h3 {
     color: black;
     padding-bottom: 2.5vh;
     font-size: 25px;
 }
+
 #page-3 {
     width: 100%;
     height: 110vh;
@@ -333,7 +336,8 @@ header {
     padding-top: 15vh;
     font-size: 50px;
 }
-.card-2{
+
+.card-2 {
     width: 70vw;
     height: 40vh;
     margin-left: 13vw;
@@ -341,7 +345,8 @@ header {
     display: flex;
     justify-content: center;
 }
-.content-card-2{
+
+.content-card-2 {
     width: 15vw;
     height: 40vh;
     border-radius: 20px;
@@ -351,7 +356,8 @@ header {
     text-align: center;
 
 }
-.content-7{
+
+.content-7 {
     width: 10vw;
     height: 5vh;
     display: flex;
@@ -363,23 +369,27 @@ header {
     margin-top: 6.7vh;
     margin-left: 2.5vw;
 }
+
 .content-7 a {
     font-size: 15px;
     color: white;
     text-decoration: none;
 
 }
-.content-card-2 h1{
+
+.content-card-2 h1 {
     margin-top: 2.5vh;
     color: orange;
     font-size: 40px;
 
 }
-.content-card-2 p{
-   font-size: 12px;
+
+.content-card-2 p {
+    font-size: 12px;
 
 }
-.content-8{
+
+.content-8 {
     width: 7vw;
     height: 5vh;
     display: flex;
@@ -390,18 +400,21 @@ header {
     margin-top: 2.5vh;
     margin-left: 4vw
 }
+
 .content-8 a {
     font-size: 15px;
     color: white;
     text-decoration: none;
 
 }
-.card-3{
+
+.card-3 {
     margin-top: 20vh;
     display: flex;
     justify-content: center;
 }
-.content-card-3{
+
+.content-card-3 {
     width: 12vw;
     height: 40vh;
     border-radius: 20px;
@@ -412,7 +425,8 @@ header {
     background-size: cover;
     margin-top: -4vh;
 }
-.content-card-4{
+
+.content-card-4 {
     width: 12vw;
     height: 40vh;
     border-radius: 20px;
@@ -422,7 +436,8 @@ header {
     background-position: center;
     background-size: cover;
 }
-.content-card-5{
+
+.content-card-5 {
     width: 12vw;
     height: 40vh;
     border-radius: 20px;
@@ -433,7 +448,8 @@ header {
     background-size: cover;
     margin-top: -4vh;
 }
-.content-card-6{
+
+.content-card-6 {
     width: 12vw;
     height: 40vh;
     border-radius: 20px;
@@ -443,7 +459,8 @@ header {
     background-position: center;
     background-size: cover;
 }
-.content-card-7{
+
+.content-card-7 {
     width: 12vw;
     height: 40vh;
     border-radius: 20px;
@@ -454,7 +471,8 @@ header {
     background-size: cover;
     margin-top: -4vh;
 }
-footer{
+
+footer {
     width: 100%;
     height: 35vh;
     background-color: rgb(60, 110, 89);
@@ -463,7 +481,8 @@ footer{
     align-items: center;
     margin-top: 40vh;
 }
-.info-position{
+
+.info-position {
     width: 900px;
     height: 30vh;
     border-radius: 20px;
@@ -472,19 +491,245 @@ footer{
     justify-content: space-between;
     padding-top: 20px;
 }
-.info-position h1{
+
+.info-position h1 {
     color: white;
     text-decoration: underline rgb(255, 255, 255);
     font-size: 20px;
     padding-top: 10px;
 }
-.info h3{
+
+.info h3 {
     color: rgb(16, 51, 37);
     padding-top: 2.5vh;
 }
-.info a{
+
+.info a {
     text-decoration: none;
 }
-.info h3:hover{
+
+.info h3:hover {
     color: white;
+}
+
+@media (min-width: 300px) and (max-width: 600px) {
+
+    /*header*/
+    .content-1 {
+        width: 50vw;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .content-3 {
+        width: 15vw;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2.5vh;
+        border-radius: 5px;
+        margin-left: 20vw;
+        border: 1px solid;
+    }
+
+    /*page-1*/
+    #page-1 {
+        flex-wrap: wrap;
+    }
+
+    .content-1-page {
+        padding-left: 20px;
+
+    }
+
+    .content-1-page p {
+        width: 40vw;
+    }
+
+    .content-4 {
+        width: 20vw;
+    }
+
+    .img-home {
+        margin-left: -3vw;
+    }
+
+    .img-home img {
+        width: 100%;
+    }
+
+    /*page-2*/
+    .content-2-page {
+        height: 150vh;
+        margin-left: 0;
+        margin-top: 0;
+        border-radius: 0;
+    }
+
+    .content-page {
+        width: 80vw;
+        height: 30vh;
+    }
+
+    .icon-page {
+        width: 100%;
+        height: 100vh;
+        margin-top: -8vh;
+    }
+
+    /*page-3*/
+    #page-3 {
+        width: 100%;
+        height: 100%;
+        margin-top: 100vh;
+        flex-wrap: wrap;
+    }
+
+    .content-3-page {
+        width: 30vw;
+        height: 40vh;
+        padding-top: 20vh;
+        padding-left: 60px;
+
+
+    }
+
+    .content-3-page h1 {
+        font-size: 60px;
+        padding-bottom: 20px;
+        width: 20vw;
+        font-weight: 100;
+
+    }
+
+    .content-3-page p {
+        width: 40vw;
+    }
+
+    .content-5 {
+        width: 20vw;
+    }
+
+    .img-home-2 {
+        margin-left: 0;
+        margin-top: 35vh;
+    }
+
+    .img-home-2 img {
+        width: 70vw;
+        height: 40vh;
+        margin-left: 9vh;
+
+    }
+
+    /*page-4*/
+    #page-4 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-wrap: wrap;
+    }
+
+    .content-4-page {
+        width: 30vw;
+        height: 10vh;
+        text-align: center;
+    }
+
+    .content-4-page h1 {
+        font-size: 40px;
+        padding-bottom: 15px;
+    }
+
+    .card {
+        height: 100%;
+        margin-top: 20vh;
+    }
+
+    .content-card {
+        margin-left: 10vw;
+        margin-bottom: 10vh;
+        width: 60vw;
+        height: 50vh;
+    }
+
+    .content-card img {
+        width: 40vw;
+    }
+
+    .content-6 {
+        width: 25vw;
+        margin-left: 18vw;
+        margin-top: 2.5vh;
+    }
+
+    /*page-5*/
+    #page-5 {
+        height: 100vh;
+        margin-top: 5vh;
+    }
+
+    .card-2 {
+        width: 100%;
+        margin-left: 0;
+        margin-top: -5vh;
+    }
+
+    .content-card-2 {
+        width: 30vw;
+    }
+
+    .content-7 {
+        width: 20vw;
+        margin-left: 5vw;
+    }
+
+    .content-8 {
+        width: 20vw;
+        margin-left: 6vw
+    }
+
+    .content-card-3 {
+        width: 15vw;
+        height: 40vh;
+        border-radius: 20px;
+        margin-left: 1vw;
+        background-color: white;
+        background-image: url(https://img.freepik.com/photos-gratuite/homme-travaillant-dans-salle-sport_144627-38795.jpg?w=360&t=st=1701879946~exp=1701880546~hmac=7faaf3ccb20d779a417f65c19fcd5765ebe27047fdea8d9e2657cfdc1980fd16);
+        background-position: center;
+        background-size: cover;
+        margin-top: -4vh;
+    }
+
+    .content-card-4 {
+        width: 15vw;
+    }
+
+    .content-card-5 {
+        width: 15vw;
+    }
+
+    .content-card-6 {
+        width: 15vw;
+    }
+
+    .content-card-7 {
+        width: 15vw;
+    }
+
+    footer {
+        margin-top: 50vh;
+    }
+
+    .info-position {
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+    }
 }
