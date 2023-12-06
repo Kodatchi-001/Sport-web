@@ -1,0 +1,490 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Hedvig Letters Serif', serif;
+    text-transform: capitalize;
+    scroll-behavior: smooth;
+}
+
+header {
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(60, 110, 89);
+    color: white;
+    display: flex;
+}
+
+.content-1 {
+    width: 50vw;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content-1 span {
+    color: rgb(22, 50, 38);
+}
+
+.content-2 {
+    display: flex;
+
+}
+
+.content-2 a {
+    text-decoration: none;
+    padding-left: 30px;
+    color: white;
+}
+
+.content-3 {
+    width: 10vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5vh;
+    border-radius: 5px;
+    margin-left: 30vw;
+    border: 1px solid;
+}
+
+.content-3 a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+
+}
+
+#page-1 {
+    width: 100%;
+    height: 160vh;
+    background-color: rgb(60, 110, 89);
+    color: white;
+    display: flex;
+}
+
+.content-1-page {
+    width: 30vw;
+    height: 40vh;
+    padding-top: 15vh;
+    padding-left: 150px;
+
+}
+
+.content-1-page h1 {
+    font-size: 90px;
+    padding-bottom: 20px;
+    width: 5vw;
+    font-weight: 100;
+
+}
+
+.content-1-page p {
+    width: 25vw;
+}
+
+.content-4 {
+    width: 10vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.content-4 h2 {
+    font-size: 13px;
+
+}
+
+.img-home {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.img-home img {
+    width: 60vw;
+    height: 80vh;
+    mix-blend-mode: multiply;
+}
+
+#page-2 {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+}
+
+.content-2-page {
+    background-color: rgb(3, 86, 51);
+    width: 92vw;
+    height: 72vh;
+    margin-left: 7vw;
+    margin-top: -50vh;
+    padding-top: 15vh;
+    padding-left: 10vw;
+    border-radius: 200px 0px 0px 0px;
+    color: white;
+}
+
+.content-page {
+    width: 30vw;
+    height: 20vh;
+}
+
+.content-page h1 {
+    font-size: 30px;
+    width: 45vw;
+}
+
+.icon-page {
+    width: 60vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 5vh;
+}
+
+.icon-content {
+    width: 30vw;
+    height: 20vh;
+    display: flex;
+}
+
+.content-page h1{
+    width: 29vw;
+    color: black;
+
+}
+.icon-content img {
+    width: 8vw;
+    height: 10vh;
+}
+
+.icon-position {
+    margin-left: 2vw;
+}
+.icon-position h3{
+    color: black;
+    padding-bottom: 2.5vh;
+    font-size: 25px;
+}
+#page-3 {
+    width: 100%;
+    height: 110vh;
+    color: rgb(0, 0, 0);
+    display: flex;
+}
+
+.content-3-page {
+    width: 30vw;
+    height: 40vh;
+    padding-top: 20vh;
+    padding-left: 150px;
+
+}
+
+.content-3-page h1 {
+    font-size: 60px;
+    padding-bottom: 20px;
+    width: 20vw;
+    font-weight: 100;
+
+}
+
+.content-3-page p {
+    width: 25vw;
+}
+
+.content-5 {
+    width: 10vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    border-radius: 5px;
+    background-color: green;
+}
+
+.content-5 h2 {
+    font-size: 13px;
+    color: white;
+
+}
+
+.img-home-2 {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.img-home-2 img {
+    width: 60vw;
+    height: 90vh;
+    border-radius: 20px;
+
+}
+
+#page-4 {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+.content-4-page {
+    width: 30vw;
+    height: 10vh;
+    text-align: center;
+}
+
+.content-4-page h1 {
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+
+.card {
+    width: 80vw;
+    height: 105vh;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.content-card {
+    margin-left: 10px;
+    width: 20vw;
+    height: 45vh;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 5vh;
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 10px black;
+    transition: 0.4s ease-in;
+
+}
+
+.content-card:hover {
+    background-color: rgb(6, 65, 6);
+    color: white;
+    box-shadow: 10px 10px 50px rgb(0, 0, 0);
+
+}
+
+.content-card img {
+    width: 10vw;
+    height: 20vh;
+    border-radius: 50%;
+}
+
+.content-card h2 {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.content-6 {
+    width: 10vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: green;
+    margin-left: 5vw;
+    margin-top: 2.5vh;
+}
+
+.content-6 a {
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+
+}
+
+#page-5 {
+    width: 100%;
+    height: 100vh;
+    margin-top: 60vh;
+}
+
+.content-5-page {
+    width: 100%;
+    height: 50vh;
+    background-image: url(https://img.freepik.com/photos-gratuite/halteres-sol-salle-sport-ai-generative_123827-23744.jpg?w=1060&t=st=1701876504~exp=1701877104~hmac=02c1ffcf1f4971ecbd5b3a9b6bcdbf271891255655a1f4970bd17ae3453949f5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.content-5-page h1 {
+    padding-top: 15vh;
+    font-size: 50px;
+}
+.card-2{
+    width: 70vw;
+    height: 40vh;
+    margin-left: 13vw;
+    margin-top: -15vh;
+    display: flex;
+    justify-content: center;
+}
+.content-card-2{
+    width: 15vw;
+    height: 40vh;
+    border-radius: 20px;
+    margin-left: 2vw;
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+    text-align: center;
+
+}
+.content-7{
+    width: 10vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgb(28, 7, 98);
+    box-shadow: 0px 0px 10px black;
+    margin-top: 6.7vh;
+    margin-left: 2.5vw;
+}
+.content-7 a {
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+
+}
+.content-card-2 h1{
+    margin-top: 2.5vh;
+    color: orange;
+    font-size: 40px;
+
+}
+.content-card-2 p{
+   font-size: 12px;
+
+}
+.content-8{
+    width: 7vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgb(0, 128, 128);
+    margin-top: 2.5vh;
+    margin-left: 4vw
+}
+.content-8 a {
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+
+}
+.card-3{
+    margin-top: 20vh;
+    display: flex;
+    justify-content: center;
+}
+.content-card-3{
+    width: 12vw;
+    height: 40vh;
+    border-radius: 20px;
+    margin-left: 1vw;
+    background-color: white;
+    background-image: url(https://img.freepik.com/photos-gratuite/homme-travaillant-dans-salle-sport_144627-38795.jpg?w=360&t=st=1701879946~exp=1701880546~hmac=7faaf3ccb20d779a417f65c19fcd5765ebe27047fdea8d9e2657cfdc1980fd16);
+    background-position: center;
+    background-size: cover;
+    margin-top: -4vh;
+}
+.content-card-4{
+    width: 12vw;
+    height: 40vh;
+    border-radius: 20px;
+    margin-left: 1vw;
+    background-color: white;
+    background-image: url(https://img.freepik.com/photos-gratuite/fitness-dans-salle-gym_144627-31081.jpg?w=360&t=st=1701880047~exp=1701880647~hmac=62a345904c5ab616dab85eb5ee3a27517ab2941624c5642700d5bb4306da906d);
+    background-position: center;
+    background-size: cover;
+}
+.content-card-5{
+    width: 12vw;
+    height: 40vh;
+    border-radius: 20px;
+    margin-left: 1vw;
+    background-color: white;
+    background-image: url(https://img.freepik.com/photos-premium/formation-suspension-trois-jeunes-femmes-athletiques-exercant-sangles-fitness-trx-verticale-salle-sport_386167-12257.jpg?w=360);
+    background-position: center;
+    background-size: cover;
+    margin-top: -4vh;
+}
+.content-card-6{
+    width: 12vw;
+    height: 40vh;
+    border-radius: 20px;
+    margin-left: 1vw;
+    background-color: white;
+    background-image: url(https://img.freepik.com/photos-premium/fille-mince-tenue-sport-exercant-vue-du-simulateur_263872-34.jpg?w=360);
+    background-position: center;
+    background-size: cover;
+}
+.content-card-7{
+    width: 12vw;
+    height: 40vh;
+    border-radius: 20px;
+    margin-left: 1vw;
+    background-color: white;
+    background-image: url(https://img.freepik.com/photos-gratuite/boxer-femme-cordon-elastique-dans-gymnase_23-2148426236.jpg?w=360&t=st=1701880315~exp=1701880915~hmac=6615ba459c72b570a80c6400a3f790dd639e85ffa86d9090930ef8a4c19130ec);
+    background-position: center;
+    background-size: cover;
+    margin-top: -4vh;
+}
+footer{
+    width: 100%;
+    height: 35vh;
+    background-color: rgb(60, 110, 89);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40vh;
+}
+.info-position{
+    width: 900px;
+    height: 30vh;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.info-position h1{
+    color: white;
+    text-decoration: underline rgb(255, 255, 255);
+    font-size: 20px;
+    padding-top: 10px;
+}
+.info h3{
+    color: rgb(16, 51, 37);
+    padding-top: 2.5vh;
+}
+.info a{
+    text-decoration: none;
+}
+.info h3:hover{
+    color: white;
+}
