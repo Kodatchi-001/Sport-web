@@ -650,6 +650,8 @@ footer {
     .content-4-page h1 {
         font-size: 40px;
         padding-bottom: 15px;
+        width: 60vw;
+        margin-left: -15vw;
     }
 
     .card {
@@ -664,12 +666,12 @@ footer {
         height: 50vh;
     }
     .content-card img {
-        width: 15vw;
+        width: 25vw;
     }
 
     .content-6 {
-        width: 19vw;
-        margin-left: 8vw;
+        width: 25vw;
+        margin-left: 5vw;
         margin-top: 0vh;
     }
 
