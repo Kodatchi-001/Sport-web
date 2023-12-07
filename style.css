@@ -512,7 +512,7 @@ footer {
     color: white;
 }
 
-@media (min-width: 300px) and (max-width: 600px) {
+@media  (max-width: 1400px) {
 
     /*header*/
     header{
