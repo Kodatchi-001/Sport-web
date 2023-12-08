@@ -512,197 +512,397 @@ footer {
     color: white;
 }
 
-@media  (max-width: 1400px) {
+@media (max-width: 600px) {
 
     /*header*/
-    header{
+    header {
+        width: 100%;
+        height: 100%;
+        background-color: rgb(0, 0, 0);
+        display: flex;
         flex-wrap: wrap;
+        justify-content: center;
     }
+
     .content-1 {
-        width: 50vw;
+        width: 100%;
         height: 100%;
         display: flex;
+        justify-content: center;
         justify-content: space-around;
         align-items: center;
         flex-wrap: wrap;
-        padding-left: 20vw;
+    }
+
+    .content-1 span {
+        color: rgb(255, 255, 255);
+    }
+
+    .content-2 a {
+        padding-left: 15px;
+        color: rgb(255, 255, 255);
     }
 
     .content-3 {
         width: 20vw;
         height: 5vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 2.5vh;
-        border-radius: 5px;
-        margin-left: 37vw;
-        border: 1px solid;
+        margin-top: 0;
+        margin-left: 0;
     }
 
     /*page-1*/
     #page-1 {
+        width: 100%;
+        height: 100%;
+        background-color: gray;
+        display: flex;
         flex-wrap: wrap;
     }
 
     .content-1-page {
-        padding-left: 20px;
+        width: 100%;
+        padding-top: 5vh;
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+
+    }
+
+    .content-1-page h1 {
+        font-size: 50px;
+        padding-bottom: 20px;
+        width: 100%;
 
     }
 
     .content-1-page p {
-        width: 40vw;
+        width: 100%;
+        margin-top: -5vh;
     }
 
     .content-4 {
         width: 20vw;
+        margin-top: -5vh;
+        border: 5px solid black;
+    }
+
+    .content-4 h2 {
+        font-size: 17px;
+
     }
 
     .img-home {
-        margin-left: -3vw;
+        margin-left: 0;
+        margin-top: 0;
     }
 
     .img-home img {
         width: 100%;
+        height: 60vh;
     }
 
     /*page-2*/
+    #page-2 {
+        height: 100%;
+        width: 100%;
+        display: flex;
+    }
+
     .content-2-page {
-        height: 150vh;
+        background-color: rgb(60, 60, 60);
+        width: 100%;
+        height: 135vh;
         margin-left: 0;
         margin-top: 0;
+        padding-top: 5vh;
+        padding-left: 0;
         border-radius: 0;
+        color: white;
+        display: flex;
     }
 
     .content-page {
-        width: 80vw;
-        height: 30vh;
+        width: 100;
+        height: 50vh;
+    }
+
+    .content-page h1 {
+        font-size: 30px;
+        width: 50vw;
     }
 
     .icon-page {
-        width: 100%;
-        height: 100vh;
-        margin-top: -8vh;
+        width: 60vw;
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 5vh;
     }
 
+    .icon-content {
+        width: 100%;
+        height: 20vh;
+        display: flex;
+    }
+
+    .content-page h1 {
+        width: 29vw;
+        color: black;
+        font-size: 30px;
+
+    }
+
+    .icon-content img {
+        width: 15vw;
+        height: 10vh;
+    }
+
+    .icon-position {
+        margin-left: 2vw;
+    }
+
+    .icon-position h3 {
+        color: black;
+        padding-bottom: 1vh;
+        font-size: 25px;
+    }
     /*page-3*/
     #page-3 {
         width: 100%;
-        height: 100%;
-        margin-top: 100vh;
+        height: 110vh;
+        color: rgb(0, 0, 0);
+        display: flex;
         flex-wrap: wrap;
     }
-
+    
     .content-3-page {
-        width: 30vw;
-        height: 40vh;
-        padding-top: 20vh;
-        padding-left: 60px;
-
-
+        width: 100%;
+        height: 100vh;
+        padding-top: 5vh;
+        padding-left: 0;
+        text-align: center;
     }
-
+    
     .content-3-page h1 {
-        font-size: 60px;
+        font-size: 45px;
         padding-bottom: 20px;
-        width: 20vw;
+        width: 100%;
         font-weight: 100;
-
+    
     }
-
+    
     .content-3-page p {
-        width: 40vw;
+        width: 100%;
     }
-
+    
     .content-5 {
         width: 20vw;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5vh;
+        border-radius: 5px;
+        background-color: rgb(66, 66, 66);
+        margin-left: auto;
+        margin-right: auto;
     }
-
+    
+    .content-5 h2 {
+        font-size: 13px;
+        color: white;
+    
+    }
+    
     .img-home-2 {
         margin-left: 0;
-        margin-top: 35vh;
+        margin-top: -65vh;
     }
-
+    
     .img-home-2 img {
         width: 100%;
-        height: 70vh;
-        margin-left: 0vh;
-        margin-top: 5vh;
-
+        height: 90vh;
+        border-radius: 20px;
+    
     }
-
     /*page-4*/
     #page-4 {
         width: 100%;
-        height: 100%;
+        height: 90vh;
         display: flex;
         justify-content: center;
         align-items: start;
         flex-wrap: wrap;
+        margin-top: 20vh;
     }
-
+    
     .content-4-page {
-        width: 30vw;
+        width: 100%;
         height: 10vh;
         text-align: center;
     }
-
+    
     .content-4-page h1 {
         font-size: 40px;
         padding-bottom: 15px;
-        width: 60vw;
-        margin-left: -15vw;
     }
-
+    
     .card {
-        height: 100%;
-        margin-top: 20vh;
+        width: 100%;
+        height: 105vh;
+        margin-top: 10vh;
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
     }
-
+    
     .content-card {
-        margin-left: 5vw;
-        margin-bottom: 5vh;
-        width: 35vw;
-        height: 50vh;
+        margin-left: 25vw;
+        width: 50vw;
+        height: 45vh;
+        border-radius: 20px;
+        text-align: center;
+        padding-top: 5vh;
+        color: rgb(0, 0, 0);
+        box-shadow: 0px 0px 10px black;
+        transition: 0.4s ease-in;
+        margin-top: 5vh;
+    
     }
+    
+    .content-card:hover {
+        background-color: black;
+        color: white;
+        box-shadow: 10px 10px 50px rgb(0, 0, 0);
+    
+    }
+    
     .content-card img {
-        width: 25vw;
+        width: 30vw;
+        height: 20vh;
+        border-radius: 50%;
+        margin-top: -2.5vh;
     }
-
+    
+    .content-card h2 {
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+    
     .content-6 {
-        width: 25vw;
-        margin-left: 5vw;
-        margin-top: 0vh;
-    }
-
-    /*page-5*/
-    #page-5 {
-        height: 100vh;
+        width: 100%;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0;
+        background-color: rgb(67, 67, 67);
+        margin-left: 0;
         margin-top: 5vh;
     }
-
+    
+    .content-6 a {
+        font-size: 15px;
+        color: white;
+        text-decoration: none;
+    
+    }
+    /*page-5*/
+    #page-5 {
+        width: 100%;
+        height: 100vh;
+        margin-top: 265vh;
+    }
+    .content-5-page h1 {
+        padding-top: 15vh;
+        font-size: 50px;
+    }
+    
     .card-2 {
         width: 100%;
+        height: 40vh;
         margin-left: 0;
-        margin-top: -5vh;
+        margin-top: -15vh;
+        display: flex;
+        justify-content: center;
     }
-
+    
     .content-card-2 {
-        width: 30vw;
+        width: 25vw;
+        height: 40vh;
+        border-radius: 20px;
+        margin-left: 2vw;
+        background-color: white;
+        box-shadow: 0px 0px 10px black;
+        text-align: center;
+    
     }
-
+    
     .content-7 {
         width: 20vw;
-        margin-left: 5vw;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        background-color: rgb(28, 7, 98);
+        box-shadow: 0px 0px 10px black;
+        margin-top: 6.7vh;
+        margin-left: 2.5vw;
     }
-
+    
+    .content-7 a {
+        font-size: 15px;
+        color: white;
+        text-decoration: none;
+    
+    }
+    
+    .content-card-2 h1 {
+        margin-top: 2.5vh;
+        color: orange;
+        font-size: 40px;
+    
+    }
+    
+    .content-card-2 p {
+        font-size: 12px;
+    
+    }
+    
     .content-8 {
-        width: 20vw;
-        margin-left: 6vw
-    }
-
-    .content-card-3 {
         width: 15vw;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        background-color: rgb(0, 128, 128);
+        margin-top: 2.5vh;
+        margin-left: 5vw
+    }
+    
+    .content-8 a {
+        font-size: 15px;
+        color: white;
+        text-decoration: none;
+    
+    }
+    
+    .card-3 {
+        margin-top: 20vh;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .content-card-3 {
+        width: 16vw;
         height: 40vh;
         border-radius: 20px;
         margin-left: 1vw;
@@ -710,34 +910,97 @@ footer {
         background-image: url(https://img.freepik.com/photos-gratuite/homme-travaillant-dans-salle-sport_144627-38795.jpg?w=360&t=st=1701879946~exp=1701880546~hmac=7faaf3ccb20d779a417f65c19fcd5765ebe27047fdea8d9e2657cfdc1980fd16);
         background-position: center;
         background-size: cover;
+        margin-top: 0;
+    }
+    
+    .content-card-4 {
+        width: 16vw;
+        height: 40vh;
+        border-radius: 20px;
+        margin-left: 1vw;
+        background-color: white;
+        background-image: url(https://img.freepik.com/photos-gratuite/fitness-dans-salle-gym_144627-31081.jpg?w=360&t=st=1701880047~exp=1701880647~hmac=62a345904c5ab616dab85eb5ee3a27517ab2941624c5642700d5bb4306da906d);
+        background-position: center;
+        background-size: cover;
         margin-top: -4vh;
     }
-
-    .content-card-4 {
-        width: 15vw;
-    }
-
+    
     .content-card-5 {
-        width: 15vw;
+        width: 16vw;
+        height: 40vh;
+        border-radius: 20px;
+        margin-left: 1vw;
+        background-color: white;
+        background-image: url(https://img.freepik.com/photos-premium/formation-suspension-trois-jeunes-femmes-athletiques-exercant-sangles-fitness-trx-verticale-salle-sport_386167-12257.jpg?w=360);
+        background-position: center;
+        background-size: cover;
+        margin-top: 0;
     }
-
+    
     .content-card-6 {
-        width: 15vw;
+        width: 16vw;
+        height: 40vh;
+        border-radius: 20px;
+        margin-left: 1vw;
+        background-color: white;
+        background-image: url(https://img.freepik.com/photos-premium/fille-mince-tenue-sport-exercant-vue-du-simulateur_263872-34.jpg?w=360);
+        background-position: center;
+        background-size: cover;
+        margin-top: -4vh;
     }
-
+    
     .content-card-7 {
-        width: 15vw;
+        width: 16vw;
+        height: 40vh;
+        border-radius: 20px;
+        margin-left: 1vw;
+        background-color: white;
+        background-image: url(https://img.freepik.com/photos-gratuite/boxer-femme-cordon-elastique-dans-gymnase_23-2148426236.jpg?w=360&t=st=1701880315~exp=1701880915~hmac=6615ba459c72b570a80c6400a3f790dd639e85ffa86d9090930ef8a4c19130ec);
+        background-position: center;
+        background-size: cover;
+        margin-top: 0;
     }
-
     footer {
         width: 100%;
-        margin-top: 50vh;
-        height: 100%;
-    }
-
-    .info-position {
+        height: 70vh;
+        background-color: rgb(49, 49, 49);
         display: flex;
         justify-content: center;
-        justify-content: space-around;
+        align-items: start;
+        margin-top: 40vh;
     }
+    
+    .info-position {
+        width: 900px;
+        height: 30vh;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        padding-top: 20px;
+        flex-wrap: wrap;
+    }
+    
+    .info-position h1 {
+        color: white;
+        text-decoration: underline rgb(255, 255, 255);
+        font-size: 20px;
+        padding-top: 5vh;
+    }
+    .info{
+        margin-left: 30vw;
+    }
+    .info h3 {
+        color: black;
+        padding-top: 1vh;
+    }
+    
+    .info a {
+        text-decoration: none;
+    }
+    
+    .info h3:hover {
+        color: white;
+    }
+    
 }
