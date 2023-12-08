@@ -511,8 +511,6 @@ footer {
 .info h3:hover {
     color: white;
 }
-
-<<<<<<< HEAD
 @media (max-width: 600px) {
 
     /*header*/
@@ -521,12 +519,6 @@ footer {
         height: 100%;
         background-color: rgb(0, 0, 0);
         display: flex;
-=======
-@media (max-width: 1400px) {
-
-    /*header*/
-    header {
->>>>>>> a9da9070a9742c256498c26c2716c3605a67c7c9
         flex-wrap: wrap;
         justify-content: center;
     }
@@ -582,10 +574,6 @@ footer {
         padding-bottom: 20px;
         width: 100%;
 
-    }
-
-    .content-1-page h1 {
-        font-size: 60px;
     }
 
     .content-1-page p {
@@ -764,7 +752,6 @@ footer {
     }
     
     .card {
-<<<<<<< HEAD
         width: 100%;
         height: 105vh;
         margin-top: 10vh;
@@ -772,15 +759,9 @@ footer {
         justify-content: center;
         justify-content: space-between;
         flex-wrap: wrap;
-=======
-        height: 100%;
-        width: 100%;
-        margin-top: 20vh;
->>>>>>> a9da9070a9742c256498c26c2716c3605a67c7c9
     }
     
     .content-card {
-<<<<<<< HEAD
         margin-left: 25vw;
         width: 50vw;
         height: 45vh;
@@ -806,23 +787,6 @@ footer {
         height: 20vh;
         border-radius: 50%;
         margin-top: -2.5vh;
-=======
-        margin-left: 0vw;
-        margin-bottom: 10vh;
-        width: 30vw;
-        height: 100%;
-    }
-
-    .content-card img {
-        width: 100%;
-        height: 30vh;
-        border-radius: 0;
-    }
-
-    .content-6 h3 {
-        font-size: 15px;
-        color: black;
->>>>>>> a9da9070a9742c256498c26c2716c3605a67c7c9
     }
     
     .content-card h2 {
@@ -832,7 +796,6 @@ footer {
     
     .content-6 {
         width: 100%;
-<<<<<<< HEAD
         height: 5vh;
         display: flex;
         justify-content: center;
@@ -840,16 +803,6 @@ footer {
         border-radius: 0;
         background-color: rgb(67, 67, 67);
         margin-left: 0;
-=======
-        margin-left: 0;
-        margin-top: 2vh;
-        border-radius: 0px 0px 10px 10px;
-    }
-
-    /*page-5*/
-    #page-5 {
-        height: 100vh;
->>>>>>> a9da9070a9742c256498c26c2716c3605a67c7c9
         margin-top: 5vh;
     }
     
