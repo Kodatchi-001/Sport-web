@@ -600,6 +600,7 @@ footer {
     .img-home img {
         width: 100%;
         height: 60vh;
+        
     }
 
     /*page-2*/
@@ -723,14 +724,14 @@ footer {
     
     .img-home-2 {
         margin-left: 0;
-        margin-top: -65vh;
+        margin-top: -60vh;
     }
     
     .img-home-2 img {
         width: 100%;
-        height: 90vh;
-        border-radius: 20px;
-    
+        height: 50vh;
+        border-radius: 50%;
+       
     }
     /*page-4*/
     #page-4 {
@@ -740,7 +741,7 @@ footer {
         justify-content: center;
         align-items: start;
         flex-wrap: wrap;
-        margin-top: 20vh;
+        margin-top: -10vh;
     }
     
     .content-4-page {
@@ -973,13 +974,13 @@ footer {
     }
     
     .info-position {
-        width: 900px;
-        height: 30vh;
+        width: 100%;
+        height: 100%;
         border-radius: 20px;
         display: flex;
         justify-content: center;
         justify-content: space-between;
-        padding-top: -20px;
+        padding-top: 0;
         flex-wrap: wrap;
     }
     
