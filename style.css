@@ -547,6 +547,7 @@ footer {
         height: 5vh;
         margin-top: 0;
         margin-left: 0;
+        border: 0;
     }
 
     /*page-1*/
@@ -582,9 +583,13 @@ footer {
     }
 
     .content-4 {
-        width: 20vw;
+        width: 30%;
         margin-top: -5vh;
-        border: 5px solid black;
+        border: 0;
+        border-radius: 20px;
+        background-color: black;
+        color: white;
+        padding: 2.5px;
     }
 
     .content-4 h2 {
@@ -704,20 +709,21 @@ footer {
     }
     
     .content-5 {
-        width: 20vw;
+        width: 30%;
         height: 5vh;
         display: flex;
         justify-content: center;
         align-items: center;
         margin-top: 5vh;
-        border-radius: 5px;
-        background-color: rgb(66, 66, 66);
+        border-radius: 20px;
+        background-color: black;
         margin-left: auto;
         margin-right: auto;
+        padding: 2.5px;
     }
     
     .content-5 h2 {
-        font-size: 13px;
+        font-size: 17px;
         color: white;
     
     }
@@ -811,7 +817,7 @@ footer {
         background-color: gray;
         border-radius: 0px 0px 20px 20px;
         margin-left: 0;
-        margin-top: 2vh;
+        margin-top: 0;
     }
     
     .content-6 a {
