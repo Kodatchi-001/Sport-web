@@ -8,12 +8,18 @@
     scroll-behavior: smooth;
 }
 
+body {
+    background-color: rgb(161, 161, 161);
+}
+
 header {
     width: 100%;
-    height: 10vh;
-    background-color: rgb(60, 110, 89);
+    height: 8vh;
+    background-color: rgb(52, 52, 52);
     color: white;
     display: flex;
+    position: fixed;
+    z-index: 999;
 }
 
 .content-1 {
@@ -25,11 +31,13 @@ header {
 }
 
 .content-1 span {
-    color: rgb(22, 50, 38);
+    color: rgb(0, 0, 0);
+    margin-left: -5vw;
 }
 
 .content-2 {
     display: flex;
+    margin-right: -16vw;
 
 }
 
@@ -40,15 +48,29 @@ header {
 }
 
 .content-3 {
-    width: 10vw;
+    width: 8vw;
     height: 5vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 2.5vh;
+    margin-top: 1.5vh;
     border-radius: 5px;
-    margin-left: 30vw;
+    margin-left: 32vw;
     border: 1px solid;
+    border-radius: 20px;
+    transition: 0.5s ease-in;
+}
+
+.content-3:hover {
+    background-color: white;
+
+    h2 {
+        color: black;
+    }
+}
+
+.content-3 h2 {
+    transition: 0.5s ease-in;
 }
 
 .content-3 a {
@@ -61,16 +83,20 @@ header {
 #page-1 {
     width: 100%;
     height: 160vh;
-    background-color: rgb(60, 110, 89);
     color: white;
     display: flex;
+    flex-direction: row-reverse;
+    background-image: url(./assets/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .content-1-page {
     width: 30vw;
     height: 40vh;
-    padding-top: 15vh;
-    padding-left: 150px;
+    margin-top: 30vh;
+    margin-right: 5vw;
 
 }
 
@@ -87,18 +113,18 @@ header {
 }
 
 .content-4 {
-    width: 10vw;
+    width: 8vw;
     height: 5vh;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 5vh;
-    border-radius: 5px;
+    border-radius: 10px;
     border: 1px solid;
 }
 
 .content-4 h2 {
-    font-size: 13px;
+    font-size: 18px;
 
 }
 
@@ -120,15 +146,15 @@ header {
 }
 
 .content-2-page {
-    background-color: rgb(3, 86, 51);
-    width: 92vw;
+    background-color: rgb(255, 255, 255);
+    width: 70vw;
     height: 72vh;
-    margin-left: 7vw;
-    margin-top: -50vh;
+    margin-left: 20vw;
+    margin-top: -37vh;
     padding-top: 15vh;
     padding-left: 10vw;
-    border-radius: 200px 0px 0px 0px;
-    color: white;
+    border-radius: 200px 0px 0px 200px;
+    color: rgb(0, 0, 0);
 }
 
 .content-page {
@@ -181,7 +207,7 @@ header {
 
 #page-3 {
     width: 100%;
-    height: 110vh;
+    height: 100%;
     color: rgb(0, 0, 0);
     display: flex;
 }
@@ -196,30 +222,29 @@ header {
 
 .content-3-page h1 {
     font-size: 60px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     width: 20vw;
     font-weight: 100;
-
 }
 
 .content-3-page p {
-    width: 25vw;
+    width: 20vw;
 }
 
 .content-5 {
-    width: 10vw;
+    width: 8vw;
     height: 5vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5vh;
+    margin-top: 2vh;
     border-radius: 5px;
-    background-color: green;
+    background-color: rgb(255, 255, 255);
 }
 
 .content-5 h2 {
-    font-size: 13px;
-    color: white;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
 
 }
 
@@ -232,93 +257,102 @@ header {
     width: 60vw;
     height: 90vh;
     border-radius: 20px;
-
+    mix-blend-mode: multiply;
 }
 
 #page-4 {
     width: 100%;
-    height: 90vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: start;
     flex-wrap: wrap;
-}
+    background-image: url(./assets/bg-4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
-.content-4-page {
-    width: 30vw;
-    height: 10vh;
-    text-align: center;
-}
-
-.content-4-page h1 {
-    font-size: 40px;
-    padding-bottom: 15px;
 }
 
 .card {
-    width: 80vw;
-    height: 105vh;
-    margin-top: 10vh;
+    width: 60vw;
+    height: 100%;
     display: flex;
     justify-content: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+    gap: 5vh;
 }
 
 .content-card {
-    margin-left: 10px;
-    width: 20vw;
-    height: 45vh;
-    border-radius: 20px;
-    text-align: center;
-    padding-top: 5vh;
-    color: rgb(0, 0, 0);
-    box-shadow: 0px 0px 10px black;
-    transition: 0.4s ease-in;
-
+    width: 17vw;
+    height: 100%;
+    border-radius: 30px;
+    padding-top: 2vh;
+    transition: 0.5s ease-in;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(174, 173, 173);
 }
 
 .content-card:hover {
-    background-color: rgb(6, 65, 6);
+    background-color: rgb(0, 0, 0);
     color: white;
     box-shadow: 10px 10px 50px rgb(0, 0, 0);
+    transform: scale(1.1);
+    .content-6 a {
+        color: rgb(0, 0, 0);
+        background-color: rgb(255, 255, 255);
+    }
 
 }
 
 .content-card img {
-    width: 10vw;
+    width: 100%;
     height: 20vh;
-    border-radius: 50%;
+    border-radius: 20px 20px 0px 0px;
+    margin-top: -2vh;
+    filter: grayscale(30%);
 }
 
 .content-card h2 {
     font-size: 30px;
     padding-bottom: 10px;
 }
+.content-card p {
+   text-align: center;
+}
 
 .content-6 {
-    width: 10vw;
-    height: 5vh;
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 5px;
-    background-color: green;
-    margin-left: 5vw;
-    margin-top: 2.5vh;
 }
 
 .content-6 a {
     font-size: 15px;
     color: white;
     text-decoration: none;
-
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    width: 8vw;
+    height: 4vh;
+    padding-top: 0.8vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    text-align: center;
+    transition: 0.5s ease-in;
 }
 
 #page-5 {
     width: 100%;
     height: 100vh;
-    margin-top: 60vh;
 }
 
 .content-5-page {
@@ -475,7 +509,7 @@ header {
 footer {
     width: 100%;
     height: 100%;
-    background-color: rgb(60, 110, 89);
+    background-color: rgb(44, 44, 44);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -493,14 +527,14 @@ footer {
 }
 
 .info-position h1 {
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: underline rgb(255, 255, 255);
     font-size: 20px;
     padding-top: 10px;
 }
 
 .info h3 {
-    color: rgb(16, 51, 37);
+    color: rgb(105, 104, 104);
     padding-top: 1vh;
 }
 
@@ -509,18 +543,19 @@ footer {
 }
 
 .info h3:hover {
-    color: white;
+    color: rgb(255, 208, 208);
 }
-@media (max-width: 600px) {
 
+@media (max-width: 600px) {
     /*header*/
     header {
         width: 100%;
-        height: 100%;
+        height: 8vh;
         background-color: rgb(0, 0, 0);
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        position: fixed;
     }
 
     .content-1 {
@@ -605,7 +640,7 @@ footer {
     .img-home img {
         width: 100%;
         height: 60vh;
-        
+
     }
 
     /*page-2*/
@@ -671,14 +706,17 @@ footer {
         margin-left: 2vw;
         width: 100%;
     }
-    .icon-position p{
+
+    .icon-position p {
         width: 100%;
     }
+
     .icon-position h3 {
         color: black;
         padding-bottom: 1vh;
         font-size: 25px;
     }
+
     /*page-3*/
     #page-3 {
         width: 100%;
@@ -687,7 +725,7 @@ footer {
         display: flex;
         flex-wrap: wrap;
     }
-    
+
     .content-3-page {
         width: 100%;
         height: 100vh;
@@ -695,19 +733,19 @@ footer {
         padding-left: 0;
         text-align: center;
     }
-    
+
     .content-3-page h1 {
         font-size: 45px;
         padding-bottom: 20px;
         width: 100%;
         font-weight: 100;
-    
+
     }
-    
+
     .content-3-page p {
         width: 100%;
     }
-    
+
     .content-5 {
         width: 30%;
         height: 5vh;
@@ -721,24 +759,25 @@ footer {
         margin-right: auto;
         padding: 2.5px;
     }
-    
+
     .content-5 h2 {
         font-size: 17px;
         color: white;
-    
+
     }
-    
+
     .img-home-2 {
         margin-left: 0;
         margin-top: -60vh;
     }
-    
+
     .img-home-2 img {
         width: 100%;
         height: 50vh;
         border-radius: 50%;
-       
+
     }
+
     /*page-4*/
     #page-4 {
         width: 100%;
@@ -749,19 +788,19 @@ footer {
         flex-wrap: wrap;
         margin-top: -10vh;
     }
-    
+
     .content-4-page {
         width: 100%;
         height: 10vh;
         text-align: center;
-       
+
     }
-    
+
     .content-4-page h1 {
         font-size: 40px;
         padding-bottom: 15px;
     }
-    
+
     .card {
         width: 100%;
         height: 100%;
@@ -771,7 +810,7 @@ footer {
         justify-content: space-between;
         flex-wrap: wrap;
     }
-    
+
     .content-card {
         margin-left: 25vw;
         width: 50vw;
@@ -784,29 +823,29 @@ footer {
         transition: 0.4s ease-in;
         margin-top: 5vh;
         box-shadow: 10px 10px 50px rgb(0, 0, 0);
-        
+
     }
-    
+
     .content-card:hover {
-        background-color:white;
+        background-color: white;
         color: black;
         box-shadow: 0px 0px 10px black;
-    
+
     }
-    
+
     .content-card img {
         width: 25vw;
         height: 15vh;
         border-radius: 50%;
         margin-top: -2.5vh;
     }
-    
+
     .content-card h2 {
         font-size: 25px;
         padding-bottom: 10px;
         color: gray;
     }
-    
+
     .content-6 {
         width: 100%;
         height: 5vh;
@@ -819,24 +858,26 @@ footer {
         margin-left: 0;
         margin-top: 0;
     }
-    
+
     .content-6 a {
         font-size: 15px;
         color: white;
         text-decoration: none;
-    
+
     }
+
     /*page-5*/
     #page-5 {
         width: 100%;
         height: 100vh;
         margin-top: 5vh;
     }
+
     .content-5-page h1 {
         padding-top: 15vh;
         font-size: 50px;
     }
-    
+
     .card-2 {
         width: 100%;
         height: 40vh;
@@ -845,7 +886,7 @@ footer {
         display: flex;
         justify-content: center;
     }
-    
+
     .content-card-2 {
         width: 25vw;
         height: 40vh;
@@ -854,9 +895,9 @@ footer {
         background-color: white;
         box-shadow: 0px 0px 10px black;
         text-align: center;
-    
+
     }
-    
+
     .content-7 {
         width: 20vw;
         height: 5vh;
@@ -869,26 +910,26 @@ footer {
         margin-top: 6.7vh;
         margin-left: 2.5vw;
     }
-    
+
     .content-7 a {
         font-size: 15px;
         color: white;
         text-decoration: none;
-    
+
     }
-    
+
     .content-card-2 h1 {
         margin-top: 2.5vh;
         color: orange;
         font-size: 40px;
-    
+
     }
-    
+
     .content-card-2 p {
         font-size: 12px;
-    
+
     }
-    
+
     .content-8 {
         width: 15vw;
         height: 5vh;
@@ -900,20 +941,20 @@ footer {
         margin-top: 2.5vh;
         margin-left: 5vw
     }
-    
+
     .content-8 a {
         font-size: 15px;
         color: white;
         text-decoration: none;
-    
+
     }
-    
+
     .card-3 {
         margin-top: 20vh;
         display: flex;
         justify-content: center;
     }
-    
+
     .content-card-3 {
         width: 16vw;
         height: 40vh;
@@ -925,7 +966,7 @@ footer {
         background-size: cover;
         margin-top: 0;
     }
-    
+
     .content-card-4 {
         width: 16vw;
         height: 40vh;
@@ -937,7 +978,7 @@ footer {
         background-size: cover;
         margin-top: -4vh;
     }
-    
+
     .content-card-5 {
         width: 16vw;
         height: 40vh;
@@ -949,7 +990,7 @@ footer {
         background-size: cover;
         margin-top: 0;
     }
-    
+
     .content-card-6 {
         width: 16vw;
         height: 40vh;
@@ -961,7 +1002,7 @@ footer {
         background-size: cover;
         margin-top: -4vh;
     }
-    
+
     .content-card-7 {
         width: 16vw;
         height: 40vh;
@@ -973,6 +1014,7 @@ footer {
         background-size: cover;
         margin-top: 0;
     }
+
     footer {
         width: 100%;
         height: 70vh;
@@ -982,7 +1024,7 @@ footer {
         align-items: start;
         margin-top: 40vh;
     }
-    
+
     .info-position {
         width: 100%;
         height: 100%;
@@ -993,27 +1035,29 @@ footer {
         padding-top: 0;
         flex-wrap: wrap;
     }
-    
+
     .info-position h1 {
         color: white;
         text-decoration: underline rgb(255, 255, 255);
         font-size: 20px;
         padding-top: 5vh;
     }
-    .info{
+
+    .info {
         margin-left: 30vw;
     }
+
     .info h3 {
         color: black;
         padding-top: 1vh;
     }
-    
+
     .info a {
         text-decoration: none;
     }
-    
+
     .info h3:hover {
         color: white;
     }
-    
+
 }
